@@ -28,11 +28,11 @@ public class launchBrowser {
 
 		// Search for User name and send keys
 		WebElement username = driver.findElement(By.xpath("/html/body/main/div/form/fieldset/label/input"));
-		username.sendKeys("ein170000@utdallas.edu");
+		username.sendKeys("VT_Email"); // Place Varsity tutors username in place of VT_Email
 
 		// Search for password and input
 		WebElement password = driver.findElement(By.xpath("/html/body/main/div/form/fieldset/div[1]/label[1]/input"));
-		password.sendKeys("J+3448f[Zyhg+E,ZTx");
+		password.sendKeys("VT_Password"); // Place Varsity Tutors Password in place of VT_Email
 
 		// Submit user name and password to server and wait for authentication
 		WebElement submit = driver.findElement(By.xpath("/html/body/main/div/form/fieldset/div[1]/button"));
