@@ -16,8 +16,7 @@ public class launchBrowser {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\ubong\\eclipse-workspace\\selenium_java\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "Path/to/chromedriver.exe");
 
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
